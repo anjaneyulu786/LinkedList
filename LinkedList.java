@@ -18,8 +18,8 @@ public class LinkedList {
        linkedlist.set(0, "Changed first Name");
        Object firstvar2 = linkedlist.get(0);
         System.out.println ("First Name after update by set method: " +firstvar2);
-       linkedlist.removeFirst();
-       linkedlist.removeLast();
+       linkedlist.removeFirst ();
+       linkedlist.removeLast ();
         System.out.println ("LinkedList after deletion of first and last Name: " +linkedlist);
        linkedlist.add (0, "Dinesh");
        linkedlist.remove(2);
