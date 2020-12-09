@@ -8,8 +8,7 @@ public class LinkedList {
        linkedlist.add ("Sharif");
        linkedlist.add ("Srinu");
        linkedlist.add ("Anji");
-        System.out.println ("Linked List Content: " +linkedlist);
-
+       System.out.println ("Linked List Content: " +linkedlist);
        linkedlist.addFirst ("First Name");
        linkedlist.addLast ("Last Name");
         System.out.println ("LinkedList Content after addition: " +linkedlist);
